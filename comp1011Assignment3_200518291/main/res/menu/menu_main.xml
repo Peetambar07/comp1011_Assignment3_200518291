@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_add_car"
+        android:title="add_car"
+
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_about_us"
+        android:title="about_us"
+
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_sold_cars"
+        android:title="sold_cars"
+
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_unsold_cars"
+        android:title="unsold_cars"
+
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_modify_car"
+        android:title="modify car"
+
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_modify_company_details"
+        android:title="modify company details"
+
+        app:showAsAction="never"/>
+
+</menu>
